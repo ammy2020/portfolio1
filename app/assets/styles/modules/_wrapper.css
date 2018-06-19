@@ -7,7 +7,7 @@
     margin-right:  auto;
 
     &--medium{
-    max-width: 976px;
+        max-width: 976px;
      }
 
      &--no-padding-until-medium{
@@ -24,10 +24,10 @@
          padding-left: 0;
          padding-right: 0;
 
-    @mixin atLarge{
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+        @mixin atLarge{
+            padding-left: 18px;
+            padding-right: 18px;
+        }
     }
      .wrapper{
          padding-left: 0;
