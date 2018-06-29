@@ -1,3 +1,4 @@
+//import the libraries
 import $ from 'jquery';
 
 class MobileMenu {
