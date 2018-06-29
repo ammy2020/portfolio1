@@ -1,21 +1,22 @@
+// webpack v4
+const path = require('path');
 module.exports = {
-    entry: "./app/assets/scripts/App.js",
-    output: {
-        path: "./app/temp/scripts",
-
-        filename: "App.js"
+    mode: 'development',
+    entry: {
+        main: './app/assets/scripts/App.js'
     },
-    
+    output: {
+        path: path.resolve(__dirname, './app/temp/scripts'),
+        filename: 'App.js'
+    },
     module: {
-        loaders: [
+        rules:
+        [
             {
-                loader: 'babel-loader',
-                query: {
-                    presets: ['es2015']
-                },
                 test: /\.js$/,
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                loader: "babel-loader"
             }
         ]
     }
-}
+};
