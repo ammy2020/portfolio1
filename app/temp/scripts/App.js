@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\n(SystemJS) ENOENT: no such file or directory, open '/Users/amanianord/MEGAsync/Falcon/personal/travel/loader-utils'\\n\\tError: ENOENT: no such file or directory, open '/Users/amanianord/MEGAsync/Falcon/personal/travel/loader-utils'\\n\\tError loading /Users/amanianord/MEGAsync/Falcon/personal/travel/loader-utils as \\\"loader-utils\\\" from /Users/amanianord/MEGAsync/Falcon/personal/travel/node_modules/babel-loader/lib/index.js\");\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\n(SystemJS) ENOENT: no such file or directory, open '/Users/amanianord/MEGAsync/Falcon/personal/travel/babel-core'\\n\\tError: ENOENT: no such file or directory, open '/Users/amanianord/MEGAsync/Falcon/personal/travel/babel-core'\\n\\tError loading /Users/amanianord/MEGAsync/Falcon/personal/travel/babel-core as \\\"babel-core\\\" from /Users/amanianord/MEGAsync/Falcon/personal/travel/node_modules/babel-loader/lib/index.js\");\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
 
 /***/ })
 
