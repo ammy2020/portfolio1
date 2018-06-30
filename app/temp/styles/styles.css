@@ -1236,9 +1236,10 @@ a{
   transform: scale(1);
 }
 
-.primary-nav {
-    padding-top: 10px;
-}
+.primary-nav
+    {
+        padding-top: 10px;
+    }
 
 @media (min-width: 800px) {
 
@@ -1280,7 +1281,7 @@ a{
   }
 }
 
-.primary-nav li:last-child{
+.primary-nav li:last-child {
   padding-right: 0;
 }
 
@@ -1303,9 +1304,20 @@ a{
 
 @media (min-width: 800px) {
 
-  .primary-nav {
+  .primary-nav a {
     font-size: 1rem;
     padding: 12px 0;
     background-color: transparent;
   }
+}
+
+.reveal-item{
+    opacity: 0;
+    transition: all 1.5s ease-out;
+    transform: scale(1.15);
+}
+
+.reveal-item--is-visible{
+  opacity: 1;
+  transform: scale(1);
 }
