@@ -1,3 +1,10 @@
+.flexbox .example-element{
+    padding: 10px;
+}
+
+.cssanimations .some-other-example{
+    margin: 10px;
+}
 .btn{
     background-color: $mainBlue;
     color: #FFF;
